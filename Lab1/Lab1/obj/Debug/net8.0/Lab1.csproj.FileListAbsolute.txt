@@ -12,3 +12,4 @@ C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\Lab1\obj\Debug\net8.0\refint\L
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\Lab1\obj\Debug\net8.0\Lab1.pdb
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\Lab1\obj\Debug\net8.0\ref\Lab1.dll
+C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json

@@ -103,3 +103,4 @@ C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\o
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ICT3101_Calculator.UnitTests.pdb
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ICT3101_Calculator.UnitTests.genruntimeconfig.cache
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ref\ICT3101_Calculator.UnitTests.dll
+C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ICT3101_Calculator.UnitTests.sourcelink.json

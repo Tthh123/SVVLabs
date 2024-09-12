@@ -52,6 +52,72 @@ namespace ICT3101_Calculator.UnitTests
             Assert.That(() => _calculator.Divide(0, 0), Throws.ArgumentException);
         }
 
+        // Subtract Tests
+        [Test]
+        public void Subtract_WhenSubtractingTwoNumbers_ReturnsDifference()
+        {
+            // Act
+            double result = _calculator.Subtract(20, 10);
+            // Assert
+            Assert.That(result, Is.EqualTo(10));
+        }
+
+        [Test]
+        public void Subtract_WhenSubtractingNegativeNumbers_ReturnsCorrectResult()
+        {
+            // Act
+            double result = _calculator.Subtract(-10, -5);
+            // Assert
+            Assert.That(result, Is.EqualTo(-5));
+        }
+
+        [Test]
+        public void Subtract_WhenSubtractingZero_ReturnsSameNumber()
+        {
+            // Act
+            double result = _calculator.Subtract(10, 0);
+            // Assert
+            Assert.That(result, Is.EqualTo(10));
+        }
+
+        // Multiply Tests
+        [Test]
+        public void Multiply_WhenMultiplyingTwoNumbers_ReturnsProduct()
+        {
+            // Act
+            double result = _calculator.Multiply(5, 4);
+            // Assert
+            Assert.That(result, Is.EqualTo(20));
+        }
+
+        [Test]
+        public void Multiply_WhenMultiplyingWithZero_ReturnsZero()
+        {
+            // Act
+            double result = _calculator.Multiply(10, 0);
+            // Assert
+            Assert.That(result, Is.EqualTo(0));
+        }
+
+        [Test]
+        public void Multiply_WhenMultiplyingWithNegativeNumber_ReturnsNegativeProduct()
+        {
+            // Act
+            double result = _calculator.Multiply(-5, 3);
+            // Assert
+            Assert.That(result, Is.EqualTo(-15));
+        }
+
+        // Divide Tests
+        [Test]
+        public void Divide_WithNonZeroNumbers_ReturnsQuotient()
+        {
+            // Act
+            double result = _calculator.Divide(20, 5);
+            // Assert
+            Assert.That(result, Is.EqualTo(4));
+        }
+
         [Test]
         [TestCase(0)]
         [TestCase(1)]
@@ -67,9 +133,9 @@ namespace ICT3101_Calculator.UnitTests
             Assert.That(() => _calculator.Factorial(a), Throws.ArgumentException);
         }
         [Test]
-        [TestCase(10, 5, 25)]  // Test Case 1: base=10, height=5, expected result=25
-        [TestCase(6, 8, 24)]   // Test Case 2: base=6, height=8, expected result=24
-        [TestCase(3, 7, 10.5)] // Test Case 3: base=3, height=7, expected result=10.5
+        [TestCase(10, 5, 25)]  
+        [TestCase(6, 8, 24)]   
+        [TestCase(3, 7, 10.5)] 
         public void CalTriangle_WithValidHW_ResultValid(double baseValue, double height, double expectedResult)
         {
             // Act
@@ -78,17 +144,43 @@ namespace ICT3101_Calculator.UnitTests
             // Assert
             Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); // With a tolerance of 0.01
         }
-        [TestCase(5, 78.54)]   // Test Case 1: radius=5, expected result=78.54
-        [TestCase(3, 28.27)]   // Test Case 2: radius=3, expected result=28.27
-        [TestCase(7, 153.94)]  // Test Case 3: radius=7, expected result=153.94
+
+        [Test]
+        [TestCase(-10, 5)]   
+        [TestCase(6, -8)]    
+        [TestCase(-3, -7)]
+        [TestCase(3, 0)]
+        [TestCase(0, 3)]
+        [TestCase(0, 0)]
+        public void CalTriangle_WithInvalidInputs_ThrowsArgumentException(double baseValue, double height)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalTriangle(baseValue, height));
+        }
+
+
+        [TestCase(5, 78.54)]   
+        [TestCase(3, 28.27)]   
+        [TestCase(7, 153.94)]  
         public void CalCircle_WithValidRadius_ResultValid(double radius, double expectedResult)
         {
             // Act
             double result = _calculator.CalCircle(radius);
 
             // Assert
-            Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); // With a tolerance of 0.01
+            Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); 
         }
+
+        [Test]
+        [TestCase(-5)]   
+        [TestCase(0)]   
+        public void CalCircle_WithInvalidRadius_ThrowsArgumentException(double radius)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalCircle(radius));
+        }
+
+
         [Test]
         public void UnknownFunctionA_WhenGivenTest0_Result()
         {
@@ -127,6 +219,16 @@ namespace ICT3101_Calculator.UnitTests
             // Assert
             Assert.That(() => _calculator.UnknownFunctionA(4, 5), Throws.ArgumentException);
         }
+
+        [Test]
+        [TestCase(5.5, 2)]
+        [TestCase(5, 2.3)]  
+        [TestCase(5.5, 2.3)]  
+        public void UnknownFunctionA_WithDecimals_ThrowsArgumentException(double num1, double num2)
+        {
+            Assert.Throws<ArgumentException>(() => _calculator.UnknownFunctionA(num1, num2));
+        }
+
         [Test]
         public void UnknownFunctionB_WhenGivenTest0_Result()
         {
@@ -165,5 +267,15 @@ namespace ICT3101_Calculator.UnitTests
             // Assert
             Assert.That(() => _calculator.UnknownFunctionB(4, 5), Throws.ArgumentException);
         }
+
+        [Test]
+        [TestCase(7.1, 3)]  
+        [TestCase(7, 3.2)]  
+        [TestCase(7.1, 3.2)]  
+        public void UnknownFunctionB_WithDecimals_ThrowsArgumentException(double num1, double num2)
+        {
+            Assert.Throws<ArgumentException>(() => _calculator.UnknownFunctionB(num1, num2));
+        }
+
     }
 }

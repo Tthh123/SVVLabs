@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|solutionrelative:ict3101_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\Lab1.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\lab1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\Lab1.csproj|solutionrelative:lab1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\Lab1.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\Lab1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\Lab1.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\lab1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\Lab1.csproj|solutionrelative:lab1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,33 +32,33 @@
               "RelativeDocumentMoniker": "ICT3101_Calculator.UnitTests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\UnitTest1.cs",
               "RelativeToolTip": "ICT3101_Calculator.UnitTests\\UnitTest1.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAG8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAA7wKoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T11:20:53.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Calculator.cs",
               "RelativeDocumentMoniker": "Lab1\\Calculator.cs",
               "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Calculator.cs",
               "RelativeToolTip": "Lab1\\Calculator.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAqwFcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwHgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T11:17:58.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Program.cs",
               "RelativeDocumentMoniker": "Lab1\\Program.cs",
               "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Program.cs",
               "RelativeToolTip": "Lab1\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCwAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDkAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T11:16:10.697Z",
               "EditorCaption": ""

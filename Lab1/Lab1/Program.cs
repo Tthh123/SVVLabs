@@ -38,6 +38,10 @@
             Console.WriteLine("\tm - Multiply");
             Console.WriteLine("\td - Divide");
             Console.WriteLine("\tf - Factorial (Your 2nd number will be discarded)");
+            Console.WriteLine("\ti - Circle (Your 2nd number will be discarded)");
+            Console.WriteLine("\te - Triangle");
+            Console.WriteLine("\tg - Unknown Function A");
+            Console.WriteLine("\th - Unknown Function B");
             Console.Write("Your option? ");
             string op = Console.ReadLine();
             try
