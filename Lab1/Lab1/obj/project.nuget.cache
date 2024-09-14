@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPZnrhvPs7o=",
+  "dgSpecHash": "ciVcAxQExhM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Lab1.csproj",
+  "projectFilePath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\ICT3101_Calculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chipp\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\chipp\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

@@ -6841,9 +6841,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Lab1.csproj",
-      "projectName": "Lab1",
-      "projectPath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Lab1.csproj",
+      "projectUniqueName": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\ICT3101_Calculator.csproj",
+      "projectName": "ICT3101_Calculator",
+      "projectPath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\ICT3101_Calculator.csproj",
       "packagesPath": "C:\\Users\\chipp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\obj\\",
       "projectStyle": "PackageReference",

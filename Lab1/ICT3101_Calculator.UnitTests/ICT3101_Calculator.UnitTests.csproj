@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lab1\Lab1.csproj" />
+    <ProjectReference Include="..\Lab1\ICT3101_Calculator.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1655,7 +1655,7 @@
           }
         }
       },
-      "Lab1/1.0.0": {
+      "ICT3101_Calculator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1667,10 +1667,10 @@
           "SpecFlow.Tools.MsBuild.Generation": "3.9.74"
         },
         "compile": {
-          "bin/placeholder/Lab1.dll": {}
+          "bin/placeholder/ICT3101_Calculator.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Lab1.dll": {}
+          "bin/placeholder/ICT3101_Calculator.dll": {}
         }
       }
     }
@@ -5589,16 +5589,16 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "Lab1/1.0.0": {
+    "ICT3101_Calculator/1.0.0": {
       "type": "project",
-      "path": "../Lab1/Lab1.csproj",
-      "msbuildProject": "../Lab1/Lab1.csproj"
+      "path": "../Lab1/ICT3101_Calculator.csproj",
+      "msbuildProject": "../Lab1/ICT3101_Calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FluentAssertions >= 6.12.1",
-      "Lab1 >= 1.0.0",
+      "ICT3101_Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
@@ -5637,8 +5637,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Lab1.csproj": {
-              "projectPath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Lab1.csproj"
+            "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\ICT3101_Calculator.csproj": {
+              "projectPath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\ICT3101_Calculator.csproj"
             }
           }
         }
