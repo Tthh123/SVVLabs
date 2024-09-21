@@ -74,19 +74,16 @@ public class Calculator
     }
     public double Divide(double num1, double num2)
     {
-        // Case: Dividing zero by a number (e.g., 0 / 15)
         if (num1 == 0 && num2 != 0)
         {
             return 0;
         }
 
-        // Case: Dividing by zero (e.g., 15 / 0) should return positive infinity
         if (num2 == 0 && num1 != 0)
         {
             return double.PositiveInfinity;
         }
 
-        // Case: Dividing zero by zero (e.g., 0 / 0) should return 1
         if (num1 == 0 && num2 == 0)
         {
             return 1;
