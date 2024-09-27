@@ -7,10 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator", "Lab1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator.UnitTests", "ICT3101_Calculator.UnitTests\ICT3101_Calculator.UnitTests.csproj", "{865CCC36-A1DA-441F-8C70-7621BEA93B21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowCalculatorTests", "SpecFlowCalculatorTests\SpecFlowCalculatorTests.csproj", "{CFE23766-F8F9-46BF-A775-722A2FEBAAE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowCalculatorTests", "SpecFlowCalculatorTests\SpecFlowCalculatorTests.csproj", "{CFE23766-F8F9-46BF-A775-722A2FEBAAE4}"
 	ProjectSection(ProjectDependencies) = postProject
 		{865CCC36-A1DA-441F-8C70-7621BEA93B21} = {865CCC36-A1DA-441F-8C70-7621BEA93B21}
 		{EE591DF0-09D1-4531-82D2-BDA26C165260} = {EE591DF0-09D1-4531-82D2-BDA26C165260}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84D189C7-FA5A-4F46-99D4-E72BB20BE236}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\dotnet-desktop.yml = ..\.github\workflows\dotnet-desktop.yml
 	EndProjectSection
 EndProject
 Global

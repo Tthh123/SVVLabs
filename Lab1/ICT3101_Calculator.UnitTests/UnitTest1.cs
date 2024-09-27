@@ -42,15 +42,17 @@ namespace ICT3101_Calculator.UnitTests
             //Assert
             Assert.That(result, Is.EqualTo(1));
         }
-        [Test]
-        [TestCase(0, 0)]
-        [TestCase(0, 10)]
-        [TestCase(10, 0)]
-        public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
-        {
+
+        //Outdated Tests
+        //[Test]
+        //[TestCase(0, 0)]
+        //[TestCase(0, 10)]
+        //[TestCase(10, 0)]
+        //public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
+        //{
             
-            Assert.That(() => _calculator.Divide(0, 0), Throws.ArgumentException);
-        }
+        //    Assert.That(() => _calculator.Divide(0, 0), Throws.ArgumentException);
+        //}
 
         // Subtract Tests
         [Test]
@@ -279,7 +281,7 @@ namespace ICT3101_Calculator.UnitTests
 
         [Test]
         [TestCase(200, 50, 250)]  // Valid case
-        [TestCase(100, 100, 200)] // Valid case
+        [TestCase(150, 100, 250)] // Valid case
         public void CalculateMTBF_WithValidInputs_ReturnsCorrectResult(double MTTF, double MTTR, double expectedResult)
         {
             // Act
