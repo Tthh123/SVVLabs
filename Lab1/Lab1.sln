@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84D189C7-FA5A-4F46-99D4-E72BB20BE236}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\dotnet-desktop.yml = ..\.github\workflows\dotnet-desktop.yml
+		..\MagicNumbers.txt = ..\MagicNumbers.txt
 	EndProjectSection
 EndProject
 Global

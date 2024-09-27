@@ -12,6 +12,7 @@ C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\b
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\nunit.engine.api.dll
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\nunit.engine.core.dll
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\testcentric.engine.metadata.dll
+C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\MagicNumbers.txt
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\ICT3101_Calculator.UnitTests.deps.json
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\ICT3101_Calculator.UnitTests.runtimeconfig.json
 C:\Users\chipp\Documents\School\Y3T1\SVVLabs\Lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\ICT3101_Calculator.UnitTests.dll

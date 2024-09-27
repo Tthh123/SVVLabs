@@ -6,6 +6,7 @@ namespace ICT3101_Calculator.UnitTests
     {
         private Calculator _calculator;
         private IFileReader _fileReader;
+        private string _testFilePath;
 
         [SetUp]
         public void Setup()
@@ -13,6 +14,10 @@ namespace ICT3101_Calculator.UnitTests
             // Arrange
             _calculator = new Calculator();
             _fileReader = new FileReader(); // Use the actual FileReader implementation
+
+            // Construct the dynamic path to MagicNumbersTest.txt using AppDomain.CurrentDomain.BaseDirectory
+            _testFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MagicNumbers.txt");
+
         }
         [Test]
         public void Add_WhenAddingTwoNumbers_ResultEqualToSum()//Method_Scenario_Result
@@ -414,10 +419,10 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = 0; // Corresponds to magicNumbers[0] -> "1.5"
-            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
 
             // Act
-            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+            string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
+            double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
             Assert.AreEqual(3.0, result); // 2 * 1.5
@@ -428,10 +433,10 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = 1; // Corresponds to magicNumbers[1] -> "-3.4"
-            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
 
             // Act
-            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+            string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
+            double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
             Assert.AreEqual(6.8, result); // Absolute value of 2 * -3.4
@@ -442,10 +447,10 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = 5; // Out of bounds as magicNumbers only has 3 entries
-            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
 
             // Act
-            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+            string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
+            double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
             Assert.AreEqual(0, result);
@@ -456,10 +461,10 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = -1; // Negative index
-            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
 
             // Act
-            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+            string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
+            double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
             Assert.AreEqual(0, result);
