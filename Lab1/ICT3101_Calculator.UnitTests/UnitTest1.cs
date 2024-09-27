@@ -19,6 +19,7 @@ namespace ICT3101_Calculator.UnitTests
             _testFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MagicNumbers.txt");
 
         }
+
         [Test]
         public void Add_WhenAddingTwoNumbers_ResultEqualToSum()//Method_Scenario_Result
         {
@@ -419,13 +420,14 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = 0; // Corresponds to magicNumbers[0] -> "1.5"
+            double expectedResult = 3.0; // 2 * 1.5
 
             // Act
             string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
             double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
-            Assert.AreEqual(3.0, result); // 2 * 1.5
+            Assert.That(result, Is.EqualTo(expectedResult)); // Using Assert.That()
         }
 
         [Test]
@@ -433,13 +435,14 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = 1; // Corresponds to magicNumbers[1] -> "-3.4"
+            double expectedResult = 6.8; // Absolute value of 2 * -3.4
 
             // Act
             string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
             double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
-            Assert.AreEqual(6.8, result); // Absolute value of 2 * -3.4
+            Assert.That(result, Is.EqualTo(expectedResult)); // Using Assert.That()
         }
 
         [Test]
@@ -447,13 +450,14 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = 5; // Out of bounds as magicNumbers only has 3 entries
+            double expectedResult = 0; // Expected result when out of bounds
 
             // Act
             string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
             double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
-            Assert.AreEqual(0, result);
+            Assert.That(result, Is.EqualTo(expectedResult)); // Using Assert.That()
         }
 
         [Test]
@@ -461,14 +465,14 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Arrange
             double input = -1; // Negative index
+            double expectedResult = 0; // Expected result for negative index
 
             // Act
             string[] magicNumbers = _fileReader.Read(_testFilePath); // Using the dynamic path
             double result = _calculator.GenMagicNum(input, _fileReader);
 
             // Assert
-            Assert.AreEqual(0, result);
+            Assert.That(result, Is.EqualTo(expectedResult)); // Using Assert.That()
         }
-
     }
 }

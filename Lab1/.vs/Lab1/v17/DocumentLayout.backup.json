@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\ict3101_calculator.unittests\\additionalcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|solutionrelative:ict3101_calculator.unittests\\additionalcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\ict3101_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|solutionrelative:ict3101_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\ict3101_calculator.unittests\\magicnumbers.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|solutionrelative:ict3101_calculator.unittests\\magicnumbers.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\ict3101_calculator.unittests\\ict3101_calculator.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|solutionrelative:ict3101_calculator.unittests\\ict3101_calculator.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\ICT3101_Calculator.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\ICT3101_Calculator.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\ict3101_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{865CCC36-A1DA-441F-8C70-7621BEA93B21}|ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj|solutionrelative:ict3101_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE591DF0-09D1-4531-82D2-BDA26C165260}|Lab1\\ICT3101_Calculator.csproj|c:\\users\\chipp\\documents\\school\\y3t1\\svvlabs\\lab1\\lab1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,8 +94,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MagicNumbers.txt",
+              "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\MagicNumbers.txt",
+              "RelativeDocumentMoniker": "ICT3101_Calculator.UnitTests\\MagicNumbers.txt",
+              "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\MagicNumbers.txt",
+              "RelativeToolTip": "ICT3101_Calculator.UnitTests\\MagicNumbers.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-27T15:26:32.786Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -106,7 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "AdditionalCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\AdditionalCalculatorTests.cs",
+              "RelativeDocumentMoniker": "ICT3101_Calculator.UnitTests\\AdditionalCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\AdditionalCalculatorTests.cs",
+              "RelativeToolTip": "ICT3101_Calculator.UnitTests\\AdditionalCalculatorTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:49:32.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CalculatorAvailabilityStepDefinition.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorAvailabilityStepDefinition.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorAvailabilityStepDefinition.cs",
@@ -114,11 +148,12 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorAvailabilityStepDefinition.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwCQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:12:52.951Z"
+              "WhenOpened": "2024-09-22T09:12:52.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Availability.feature",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\Features\\Availability.feature",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\Features\\Availability.feature",
@@ -131,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Calculator.feature",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\Features\\Calculator.feature",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\Features\\Calculator.feature",
@@ -144,20 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "ICT3101_Calculator.UnitTests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\UnitTest1.cs",
               "RelativeToolTip": "ICT3101_Calculator.UnitTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAKMBAAAAAAAAAAAmwNwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T15:24:04.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Calculator.cs",
               "RelativeDocumentMoniker": "Lab1\\Calculator.cs",
@@ -170,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ReliabilityII.feature",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\Features\\ReliabilityII.feature",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\Features\\ReliabilityII.feature",
@@ -183,19 +218,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CalculatorReliabilityIIStepDefinition.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityIIStepDefinition.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityIIStepDefinition.cs",
               "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityIIStepDefinition.cs",
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityIIStepDefinition.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wA0AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:10:02.122Z"
+              "WhenOpened": "2024-09-22T15:10:02.122Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Calculator_Division.feature",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\Features\\Calculator_Division.feature",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\Features\\Calculator_Division.feature",
@@ -203,11 +239,12 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\Features\\Calculator_Division.feature",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-09-13T05:49:31.598Z"
+              "WhenOpened": "2024-09-13T05:49:31.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CalculatorReliabilityStepDefintion.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityStepDefintion.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityStepDefintion.cs",
@@ -215,11 +252,12 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorReliabilityStepDefintion.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAiwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:59:10.756Z"
+              "WhenOpened": "2024-09-22T09:59:10.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CalculatorQualityMetricsStepDefinition.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorQualityMetricsStepDefinition.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorQualityMetricsStepDefinition.cs",
@@ -227,11 +265,12 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorQualityMetricsStepDefinition.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:20:11.009Z"
+              "WhenOpened": "2024-09-22T15:20:11.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Program.cs",
               "RelativeDocumentMoniker": "Lab1\\Program.cs",
@@ -244,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\Class1.cs",
               "RelativeDocumentMoniker": "Lab1\\Class1.cs",
@@ -252,11 +291,12 @@
               "RelativeToolTip": "Lab1\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:06:18.403Z"
+              "WhenOpened": "2024-09-22T09:06:18.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CalculatorDivisionStepDefinitions.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorDivisionStepDefinitions.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorDivisionStepDefinitions.cs",
@@ -264,11 +304,12 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorDivisionStepDefinitions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:41:21.73Z"
+              "WhenOpened": "2024-09-18T08:41:21.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CalculatorStepDefinitions.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorStepDefinitions.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorStepDefinitions.cs",
@@ -276,24 +317,25 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorStepDefinitions.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:49:46.656Z"
+              "WhenOpened": "2024-09-13T05:49:46.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ICT3101_Calculator.UnitTests.csproj",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
               "RelativeDocumentMoniker": "ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
               "ToolTip": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
               "RelativeToolTip": "ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-22T15:24:02.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ICT3101_Calculator.csproj",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\Lab1\\ICT3101_Calculator.csproj",
               "RelativeDocumentMoniker": "Lab1\\ICT3101_Calculator.csproj",
@@ -306,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "CommonStepDefinition.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CommonStepDefinition.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CommonStepDefinition.cs",
@@ -314,11 +356,12 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CommonStepDefinition.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T08:44:26.056Z"
+              "WhenOpened": "2024-09-18T08:44:26.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SpecFlowCalculatorTests.csproj",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\SpecFlowCalculatorTests.csproj",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\SpecFlowCalculatorTests.csproj",
@@ -331,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CalculatorFactorialStepDefintions.cs",
               "DocumentMoniker": "C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\Lab1\\SpecFlowCalculatorTests\\StepDefinitions\\CalculatorFactorialStepDefintions.cs",
               "RelativeDocumentMoniker": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorFactorialStepDefintions.cs",
@@ -339,7 +382,8 @@
               "RelativeToolTip": "SpecFlowCalculatorTests\\StepDefinitions\\CalculatorFactorialStepDefintions.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T14:38:53.196Z"
+              "WhenOpened": "2024-09-21T14:38:53.196Z",
+              "EditorCaption": ""
             }
           ]
         }
