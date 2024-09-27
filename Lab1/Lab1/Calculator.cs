@@ -285,7 +285,7 @@ public class Calculator
         double result = 0;
         int choice = Convert.ToInt16(input);
 
-        string[] magicStrings = fileReader.Read("C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\MagicNumbers.txt");
+        string[] magicStrings = fileReader.Read("SVVLabs\\MagicNumbers.txt");
 
         if ((choice >= 0) && (choice < magicStrings.Length))
         {
