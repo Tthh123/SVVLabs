@@ -6,19 +6,19 @@ namespace SpecFlowCalculatorTests.StepDefinitions
     [Binding]
     public sealed class CommonStepDefinitions
     {
-        private readonly CalculatorContext _context;
+        private Calculator _calculator;
 
-        public CommonStepDefinitions(CalculatorContext context)
+        public CommonStepDefinitions(Calculator calc)
         {
-            _context = context;
+            _calculator = calc;
         }
 
         [Given(@"I have a calculator")]
         public void GivenIHaveACalculator()
         {
-            if (_context.Calculator == null)
+            if (_calculator == null)
             {
-                _context.Calculator = new Calculator();
+                _calculator = new Calculator();
             }
         }
     }

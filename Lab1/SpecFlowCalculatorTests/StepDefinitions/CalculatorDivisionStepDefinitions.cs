@@ -7,31 +7,32 @@ namespace SpecFlowCalculatorTests.StepDefinitions
     [Binding]
     public sealed class DivisionStepDefinitions
     {
-        private readonly CalculatorContext _context;
+        private Calculator _calculator;
+        private double _result;
 
         // Constructor-based context injection
-        public DivisionStepDefinitions(CalculatorContext context)
+        public DivisionStepDefinitions(Calculator calc)
         {
-            _context = context;
+            _calculator = calc;
         }
 
 
         [When(@"I have entered (.*) and (.*) into the calculator and press divide")]
         public void WhenIHaveEnteredAndPressDivide(double p0, double p1)
         {
-            _context.Result = _context.Calculator.Divide(p0, p1);
+            _result = _calculator.Divide(p0, p1);
         }
 
         [Then(@"the division result should be (.*)")]
         public void ThenTheDivisionResultShouldBeOnTheScreen(double expectedResult)
         {
-            Assert.That(_context.Result, Is.EqualTo(expectedResult));
+            Assert.That(_result, Is.EqualTo(expectedResult));
         }
 
         [Then(@"the division result equals positive_infinity")]
         public void ThenTheDivisionResultShouldBePositiveInfinity()
         {
-            Assert.That(_context.Result, Is.EqualTo(double.PositiveInfinity));
+            Assert.That(_result, Is.EqualTo(double.PositiveInfinity));
         }
     }
 }

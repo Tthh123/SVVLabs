@@ -277,5 +277,130 @@ namespace ICT3101_Calculator.UnitTests
             Assert.Throws<ArgumentException>(() => _calculator.UnknownFunctionB(num1, num2));
         }
 
+        [Test]
+        [TestCase(200, 50, 250)]  // Valid case
+        [TestCase(100, 100, 200)] // Valid case
+        public void CalculateMTBF_WithValidInputs_ReturnsCorrectResult(double MTTF, double MTTR, double expectedResult)
+        {
+            // Act
+            double result = _calculator.CalculateMTBF(MTTF, MTTR);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedResult));
+        }
+
+        [Test]
+        [TestCase(-100, 50)]  // Negative MTTF
+        [TestCase(100, -50)]  // Negative MTTR
+        public void CalculateMTBF_WithNegativeInputs_ThrowsArgumentException(double MTTF, double MTTR)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalculateMTBF(MTTF, MTTR));
+        }
+
+
+        [Test]
+        [TestCase(200, 250, 80.00)]  // Valid case
+        [TestCase(100, 200, 50.00)]  // Valid case
+        public void CalculateAvailability_WithValidInputs_ReturnsCorrectResult(double MTTF, double MTBF, double expectedResult)
+        {
+            // Act
+            double result = _calculator.CalculateAvailability(MTTF, MTBF);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); // Tolerance for decimal
+        }
+
+        [Test]
+        [TestCase(100, 0)]  // MTBF should not be 0 (division by zero)
+        public void CalculateAvailability_WithZeroMTBF_ThrowsArgumentException(double MTTF, double MTBF)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalculateAvailability(MTTF, MTBF));
+        }
+
+
+        [Test]
+        [TestCase(5, 3, 10, 3.50)]  // Valid case
+        [TestCase(6, 2, 12, 5.00)]  // Valid case
+        public void CalculateCurrentFailureIntensity_WithValidInputs_ReturnsCorrectResult(double lambda0, double mu, double v0, double expectedResult)
+        {
+            // Act
+            double result = _calculator.CalculateCurrentFailureIntensity(lambda0, mu, v0);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); // Tolerance for decimal
+        }
+
+        [Test]
+        [TestCase(5, 10, 5)]  // mu should not be larger than v0
+        public void CalculateCurrentFailureIntensity_WhenMuIsGreaterThanV0_ThrowsArgumentException(double lambda0, double mu, double v0)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalculateCurrentFailureIntensity(lambda0, mu, v0));
+        }
+
+        [Test]
+        [TestCase(10, 5, 4, 8.65)]  // Valid case
+        [TestCase(10, 5, 2, 6.32)]  // Valid case
+        public void CalculateExpectedFailures_WithValidInputs_ReturnsCorrectResult(double v0, double lambda0, double tau, double expectedResult)
+        {
+            // Act
+            double result = _calculator.CalculateExpectedFailures(v0, lambda0, tau);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); // Tolerance for decimal
+        }
+
+        [Test]
+        [TestCase(0, 5, 4)]  // v0 should not be 0
+        [TestCase(10, 0, 4)] // lambda0 should not be 0
+        public void CalculateExpectedFailures_WithZeroOrInvalidInputs_ThrowsArgumentException(double v0, double lambda0, double tau)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalculateExpectedFailures(v0, lambda0, tau));
+        }
+
+        [Test]
+        [TestCase(100, 5000, 0.02)]  // Valid case
+        [TestCase(50, 2500, 0.02)]   // Valid case
+        public void CalculateDefectDensity_WithValidInputs_ReturnsCorrectResult(double defects, double linesOfCode, double expectedResult)
+        {
+            // Act
+            double result = _calculator.CalculateDefectDensity(defects, linesOfCode);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedResult).Within(0.01)); // Tolerance for decimal
+        }
+
+        [Test]
+        [TestCase(100, 0)]   // Lines of code should not be 0
+        public void CalculateDefectDensity_WithInvalidLinesOfCode_ThrowsArgumentException(double defects, double linesOfCode)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalculateDefectDensity(defects, linesOfCode));
+        }
+
+        [Test]
+        [TestCase(2000, 3000, 5000)]  // Valid case
+        [TestCase(1000, 2000, 3000)]  // Valid case
+        public void CalculateTotalSSI_WithValidInputs_ReturnsCorrectResult(double release1, double release2, double expectedResult)
+        {
+            // Act
+            double result = _calculator.CalculateTotalSSI(release1, release2);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedResult));
+        }
+
+        [Test]
+        [TestCase(-2000, 3000)]   // Release values should not be negative
+        [TestCase(1000, -3000)]   // Release values should not be negative
+        public void CalculateTotalSSI_WithNegativeInputs_ThrowsArgumentException(double release1, double release2)
+        {
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _calculator.CalculateTotalSSI(release1, release2));
+        }
+
     }
 }

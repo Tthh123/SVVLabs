@@ -12,6 +12,7 @@
             // Declare variables and set to empty.
             string numInput1 = "";
             string numInput2 = "";
+            string numInput3 = "";
             double result = 0;
             // Ask the user to type the first number.
             Console.Write("Type a number, and then press Enter: ");
@@ -42,11 +43,30 @@
             Console.WriteLine("\te - Triangle");
             Console.WriteLine("\tg - Unknown Function A");
             Console.WriteLine("\th - Unknown Function B");
+            Console.WriteLine("\tava - Calculate availability");
+            Console.WriteLine("\tmbtf - Calculate Mean Time Before Failure");
+            Console.WriteLine("\tcfi - Current Failure Intensity (Need to input 1 more value)");
+            Console.WriteLine("\taef - Average Expected Failures (Need to input 1 more value)");
+                    
             Console.Write("Your option? ");
             string op = Console.ReadLine();
+            // For operations requiring 3 inputs
+            double cleanNum3 = 0;
+            if (op == "cfi" || op == "aef")
+            {
+                // Ask the user to type the third number.
+                Console.Write("Type the third number, and then press Enter: ");
+                numInput3 = Console.ReadLine();
+                while (!double.TryParse(numInput3, out cleanNum3))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput3 = Console.ReadLine();
+                }
+            }
+
             try
             {
-                result = _calculator.DoOperation(cleanNum1, cleanNum2, op);
+                result = _calculator.DoOperation(cleanNum1, cleanNum2, cleanNum3, op);
                 if (double.IsNaN(result))
                 {
                     Console.WriteLine("This operation will result in a mathematical error.\n");
@@ -58,6 +78,7 @@
                 Console.WriteLine("Oh no! An exception occurred trying math.\n - Details: " + e.Message);
             }
             Console.WriteLine("------------------------\n");
+
             // Wait for the user to respond before closing.
             Console.Write("Press 'q' and Enter to quit the app, or press any other key and Enter to continue: ");
             if (Console.ReadLine() == "q") endApp = true;
