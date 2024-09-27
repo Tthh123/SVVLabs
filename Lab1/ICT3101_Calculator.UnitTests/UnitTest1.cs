@@ -1,13 +1,18 @@
+using static Calculator;
+
 namespace ICT3101_Calculator.UnitTests
 {
     public class CalculatorTests
     {
         private Calculator _calculator;
+        private IFileReader _fileReader;
+
         [SetUp]
         public void Setup()
         {
             // Arrange
             _calculator = new Calculator();
+            _fileReader = new FileReader(); // Use the actual FileReader implementation
         }
         [Test]
         public void Add_WhenAddingTwoNumbers_ResultEqualToSum()//Method_Scenario_Result
@@ -402,6 +407,62 @@ namespace ICT3101_Calculator.UnitTests
         {
             // Act & Assert
             Assert.Throws<ArgumentException>(() => _calculator.CalculateTotalSSI(release1, release2));
+        }
+
+        [Test]
+        public void GenMagicNum_ValidPositiveInput_ReturnsCorrectResult()
+        {
+            // Arrange
+            double input = 0; // Corresponds to magicNumbers[0] -> "1.5"
+            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
+
+            // Act
+            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+
+            // Assert
+            Assert.AreEqual(3.0, result); // 2 * 1.5
+        }
+
+        [Test]
+        public void GenMagicNum_ValidNegativeInput_ReturnsCorrectResult()
+        {
+            // Arrange
+            double input = 1; // Corresponds to magicNumbers[1] -> "-3.4"
+            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
+
+            // Act
+            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+
+            // Assert
+            Assert.AreEqual(6.8, result); // Absolute value of 2 * -3.4
+        }
+
+        [Test]
+        public void GenMagicNum_InputOutOfBounds_ReturnsZero()
+        {
+            // Arrange
+            double input = 5; // Out of bounds as magicNumbers only has 3 entries
+            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
+
+            // Act
+            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+
+            // Assert
+            Assert.AreEqual(0, result);
+        }
+
+        [Test]
+        public void GenMagicNum_NegativeIndex_ReturnsZero()
+        {
+            // Arrange
+            double input = -1; // Negative index
+            string path = @"C:\path\to\MagicNumbersTest.txt"; // Update this path accordingly
+
+            // Act
+            double result = _calculator.GenMagicNum(input, _fileReader); // Inject the FileReader
+
+            // Assert
+            Assert.AreEqual(0, result);
         }
 
     }

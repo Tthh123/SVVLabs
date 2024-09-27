@@ -3,9 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 public class Calculator
 {
+    public interface IFileReader
+    {
+        string[] Read(string path);
+    }
+
+
+    public class FileReader : IFileReader
+    {
+        public string[] Read(string path)
+        {
+            return File.ReadAllLines(path);
+        }
+    }
+
     public Calculator() { }
     public double DoOperation(double num1, double num2, double num3, string op)
     {
@@ -264,6 +279,22 @@ public class Calculator
         return Math.Round(result, 2); // Rounding to 2 decimal places
     }
 
+
+    public double GenMagicNum(double input, IFileReader fileReader)
+    {
+        double result = 0;
+        int choice = Convert.ToInt16(input);
+
+        string[] magicStrings = fileReader.Read("C:\\Users\\chipp\\Documents\\School\\Y3T1\\SVVLabs\\MagicNumbers.txt");
+
+        if ((choice >= 0) && (choice < magicStrings.Length))
+        {
+            result = Convert.ToDouble(magicStrings[choice]);
+        }
+
+        result = (result > 0) ? (2 * result) : (-2 * result);
+        return result;
+    }
 
 
 }
